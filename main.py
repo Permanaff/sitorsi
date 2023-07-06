@@ -1,7 +1,3 @@
-# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-# Nama    : Fajar Permana Putra
-# NPM     : 5220511385
-# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 from tkinter import *
 from tkinter import messagebox
 from tkinter import ttk
@@ -185,7 +181,7 @@ class Sitorsi :
         self.label_data_transaksi = Label(self.totalTransaksi, text="0", font=("tahoma", 14), anchor=W, bg='#F8F4F4')
         self.label_data_transaksi.place(x=15, y=125)
         self.label_data_transaksi = self.label_data_transaksi
-        
+ # Permanaff       
         # Menampilkan Total Keuntungan
         self.Penghasilan = Canvas(self.beranda, bg='#F8F4F4', bd=0, width=270, height=170)
         self.Penghasilan.grid(row=2, column=3, padx=15, pady=20)
@@ -320,8 +316,7 @@ class Sitorsi :
         self.tabel.heading('jumlah', text='Jumlah Stok', anchor=CENTER)            
         self.tabel.place(x=700, y=100)
 
-
-
+# Permanaff
     def transaksiPage(self):
         # Backgourund Halaman Transaksi
         self.transaksiFrame = Frame(self.window, bg='white')
