@@ -1,8 +1,3 @@
-# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-# Nama    : Fajar Permana Putra
-# NPM     : 5220511385
-# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-
 import csv
 from datetime import datetime
 
@@ -89,7 +84,7 @@ class BinarySearchTree:
                             return 
                         else:
                             temp = temp.right
-
+# Permanaff
     # Menampilkan Data 
     def tampil(self):
         data = []
@@ -214,7 +209,7 @@ class Transaksi:
             if file.tell() == 0:
                 writer.writeheader()
             writer.writerows(self.transaksi)
-
+# Permanaff
     # Memuat Data Dari CSV
     def baca_dari_csv(self, filename):
         with open(filename, 'r') as file:
